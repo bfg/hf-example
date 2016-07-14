@@ -1,15 +1,3 @@
-# this is readme.
-
-# another section
-
-# p3
-
-trololo
-
-# p4
-
-haha
-
 # how to hub flow
 
 * start new feature
