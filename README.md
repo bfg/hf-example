@@ -16,6 +16,7 @@ haha
 
 ```
 $ git hf feature start another_feature
+
 Fetching origin
 Switched to a new branch 'feature/another_feature'
 Total 0 (delta 0), reused 0 (delta 0)
@@ -39,6 +40,7 @@ pull request on GitHub.  Once that has been merged, use:
 
 ```
 $ git hf feature push
+
 Fetching origin
 Already up-to-date.
 Counting objects: 3, done.
@@ -60,6 +62,7 @@ Summary of actions:
 
 ```
 $ git hf feature finish
+
 Fetching origin
 remote: Counting objects: 1, done.
 remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
