@@ -1,21 +1,10 @@
-# this is readme.
-
-# another section
-
-# p3
-
-trololo
-
-# p4
-
-haha
-
 # how to hub flow
 
 * start new feature
 
 ```
 $ git hf feature start another_feature
+
 Fetching origin
 Switched to a new branch 'feature/another_feature'
 Total 0 (delta 0), reused 0 (delta 0)
@@ -39,6 +28,7 @@ pull request on GitHub.  Once that has been merged, use:
 
 ```
 $ git hf feature push
+
 Fetching origin
 Already up-to-date.
 Counting objects: 3, done.
@@ -60,4 +50,29 @@ Summary of actions:
 
 ```
 $ git hf feature finish
+
+Fetching origin
+remote: Counting objects: 1, done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (1/1), done.
+From github.com:bfg/hf-example
+   f1248de..6928163  develop    -> origin/develop
+Switched to branch 'develop'
+Your branch is behind 'origin/develop' by 3 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+Updating f1248de..6928163
+Fast-forward
+ README.md | 52 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 52 insertions(+)
+Already up-to-date.
+To git@github.com:bfg/hf-example.git
+ - [deleted]         feature/another_feature
+Deleted branch feature/another_feature (was ad27936).
+
+Summary of actions:
+- The latest changes from 'origin' were merged into 'master' and 'develop'
+- The feature branch 'feature/another_feature' was merged into 'develop'
+- Feature branch 'feature/another_feature' has been removed
+- Feature branch 'origin/feature/another_feature' has been removed
+- You are now on branch 'develop'
 ```
